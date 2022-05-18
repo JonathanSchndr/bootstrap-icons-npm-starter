@@ -10,12 +10,12 @@ Then run `npm install`, your own icons will now be extended with the bootstrap i
 
 ## :scroll: Documentation
 
-with the command `npm run icon:docs` you call the bootstrap icon docs. also here your custom icons are already included.
+Run `npm run icon:docs` to create the documentation for your icons & the bootstrap icons.
 
 ## ⚙️ Configuration
 
-the config folder does not need to be changed and is based on bootstrap icon version 1.8.1. if you have specific requirements, you may be able to solve them here. currently, the bootstrap recommendation is stored there.
+The config folder does not need to be changed and is based on bootstrap icon version 1.8.1. if you have specific requirements, you may be able to solve them here. currently, the bootstrap recommendation is stored there.
 
 ## :interrobang: Troubleshooting
 
-if you use a new version of the bootstrap icons, you might have to recreate the config folder as well. you can find the current config files in the official bootstrap-icons repo. feel free to create a pull request for it. the version of this package always corresponds to the supported version of the bootstrap-icons.
+If you use a new version of the bootstrap icons, you might have to recreate the config folder as well. You can find the current config files in the official bootstrap-icons repo. feel free to create a pull request for it. the version of this package always corresponds to the supported version of the `bootstrap-icons`.
