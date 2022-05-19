@@ -3,7 +3,7 @@
   "version": "1.8.1",
   "description": "",
   "scripts": {
-    "prepare": "copy-files-from-to && symlink-dir ./node_modules/bootstrap-icons/font ./dist && npm run icon:generate",
+    "prepack": "copy-files-from-to && symlink-dir ./node_modules/bootstrap-icons/font ./dist && npm run icon:generate",
     "icon:generate": "npm explore bootstrap-icons -- npm install && npm explore bootstrap-icons -- npm run icons && npm explore bootstrap-icons -- npm run pages && npm explore bootstrap-icons -- npm run release",
     "icon:docs": "npm explore bootstrap-icons -- npm run start"
   },
